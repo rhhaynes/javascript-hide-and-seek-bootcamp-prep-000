@@ -26,5 +26,5 @@ function deepestChild(){
     }
   }
   
-  return currArray;
+  return next;
 }
