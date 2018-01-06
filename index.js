@@ -22,9 +22,9 @@ function deepestChild(){
   while (currArray.length>0){
     next = currArray.shift();
     for (let i=0; i<next.length; i++){
-      currArray.push(next.childNodes[i]);
+      currArray.push(next.children[i]);
     }
   }
   
-  return curr;
+  return currArray;
 }
