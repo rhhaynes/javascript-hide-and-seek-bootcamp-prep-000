@@ -19,7 +19,7 @@ function deepestChild(){
   var currArray = [...curr];
   var next = [];
   
-  while (curr.length>0){
+  while (currArray.length>0){
     next = curr[0].children;
     for (let i=0; i<next.length; i++){
       curr.push(next.childNodes[i]);
