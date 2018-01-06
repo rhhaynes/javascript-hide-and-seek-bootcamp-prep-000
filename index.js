@@ -25,6 +25,6 @@ function deepestChild(){
       currArray.push(next.children[i]);
     }
   }
-  
+  console.log(next);
   return next;
 }
